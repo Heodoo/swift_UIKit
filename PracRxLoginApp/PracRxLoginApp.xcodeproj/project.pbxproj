@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA2B59EC97D5C444D4D1199 /* Pods_PracRxLoginApp_PracRxLoginAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3085E7C8DE904FE787DFC09 /* Pods_PracRxLoginApp_PracRxLoginAppUITests.framework */; };
+		99F55002B7BFE66F0736995D /* Pods_PracRxLoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74912083B5966F24FD59D84 /* Pods_PracRxLoginApp.framework */; };
+		ADAD5AFE3173CAA3700C5314 /* Pods_PracRxLoginAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C192F2D02F0A7330FB21CC77 /* Pods_PracRxLoginAppTests.framework */; };
+		F3376924279D44B6007438E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3376923279D44B6007438E8 /* AppDelegate.swift */; };
+		F3376926279D44B6007438E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3376925279D44B6007438E8 /* SceneDelegate.swift */; };
+		F3376928279D44B6007438E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3376927279D44B6007438E8 /* ViewController.swift */; };
+		F337692B279D44B6007438E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3376929279D44B6007438E8 /* Main.storyboard */; };
+		F337692D279D44B8007438E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F337692C279D44B8007438E8 /* Assets.xcassets */; };
+		F3376930279D44B8007438E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F337692E279D44B8007438E8 /* LaunchScreen.storyboard */; };
+		F337693B279D44B8007438E8 /* PracRxLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F337693A279D44B8007438E8 /* PracRxLoginAppTests.swift */; };
+		F3376946279D44B8007438E8 /* PracRxLoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3376945279D44B8007438E8 /* PracRxLoginAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3376937279D44B8007438E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3376918279D44B6007438E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F337691F279D44B6007438E8;
+			remoteInfo = PracRxLoginApp;
+		};
+		F3376942279D44B8007438E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3376918279D44B6007438E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F337691F279D44B6007438E8;
+			remoteInfo = PracRxLoginApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E383C58DDC728B2C9B3183E /* Pods-PracRxLoginAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PracRxLoginAppTests/Pods-PracRxLoginAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD2EDD36E0C19DDD656637A /* Pods-PracRxLoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginApp.release.xcconfig"; path = "Target Support Files/Pods-PracRxLoginApp/Pods-PracRxLoginApp.release.xcconfig"; sourceTree = "<group>"; };
+		207042327D20CB9BB33FC813 /* Pods-PracRxLoginApp-PracRxLoginAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginApp-PracRxLoginAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PracRxLoginApp-PracRxLoginAppUITests/Pods-PracRxLoginApp-PracRxLoginAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A046A0D0DC66010ED17478F /* Pods-PracRxLoginApp-PracRxLoginAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginApp-PracRxLoginAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PracRxLoginApp-PracRxLoginAppUITests/Pods-PracRxLoginApp-PracRxLoginAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3085E7C8DE904FE787DFC09 /* Pods_PracRxLoginApp_PracRxLoginAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracRxLoginApp_PracRxLoginAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B522CD99FB56E5E42031B05C /* Pods-PracRxLoginAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginAppTests.release.xcconfig"; path = "Target Support Files/Pods-PracRxLoginAppTests/Pods-PracRxLoginAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C192F2D02F0A7330FB21CC77 /* Pods_PracRxLoginAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracRxLoginAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74912083B5966F24FD59D84 /* Pods_PracRxLoginApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracRxLoginApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FF005EB46FAB10B91CE821 /* Pods-PracRxLoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracRxLoginApp.debug.xcconfig"; path = "Target Support Files/Pods-PracRxLoginApp/Pods-PracRxLoginApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F3376920279D44B6007438E8 /* PracRxLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracRxLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3376923279D44B6007438E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3376925279D44B6007438E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3376927279D44B6007438E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F337692A279D44B6007438E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F337692C279D44B8007438E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F337692F279D44B8007438E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3376931279D44B8007438E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3376936279D44B8007438E8 /* PracRxLoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracRxLoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F337693A279D44B8007438E8 /* PracRxLoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracRxLoginAppTests.swift; sourceTree = "<group>"; };
+		F337693C279D44B8007438E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3376941279D44B8007438E8 /* PracRxLoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracRxLoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3376945279D44B8007438E8 /* PracRxLoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracRxLoginAppUITests.swift; sourceTree = "<group>"; };
+		F3376947279D44B8007438E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F337691D279D44B6007438E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F55002B7BFE66F0736995D /* Pods_PracRxLoginApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3376933279D44B8007438E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD5AFE3173CAA3700C5314 /* Pods_PracRxLoginAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F337693E279D44B8007438E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2B59EC97D5C444D4D1199 /* Pods_PracRxLoginApp_PracRxLoginAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF68D66D4689C9E850E8BC5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74912083B5966F24FD59D84 /* Pods_PracRxLoginApp.framework */,
+				B3085E7C8DE904FE787DFC09 /* Pods_PracRxLoginApp_PracRxLoginAppUITests.framework */,
+				C192F2D02F0A7330FB21CC77 /* Pods_PracRxLoginAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCF8256D39CBFB88066D12E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3FF005EB46FAB10B91CE821 /* Pods-PracRxLoginApp.debug.xcconfig */,
+				1BD2EDD36E0C19DDD656637A /* Pods-PracRxLoginApp.release.xcconfig */,
+				207042327D20CB9BB33FC813 /* Pods-PracRxLoginApp-PracRxLoginAppUITests.debug.xcconfig */,
+				6A046A0D0DC66010ED17478F /* Pods-PracRxLoginApp-PracRxLoginAppUITests.release.xcconfig */,
+				0E383C58DDC728B2C9B3183E /* Pods-PracRxLoginAppTests.debug.xcconfig */,
+				B522CD99FB56E5E42031B05C /* Pods-PracRxLoginAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3376917279D44B6007438E8 = {
+			isa = PBXGroup;
+			children = (
+				F3376922279D44B6007438E8 /* PracRxLoginApp */,
+				F3376939279D44B8007438E8 /* PracRxLoginAppTests */,
+				F3376944279D44B8007438E8 /* PracRxLoginAppUITests */,
+				F3376921279D44B6007438E8 /* Products */,
+				DFCF8256D39CBFB88066D12E /* Pods */,
+				AF68D66D4689C9E850E8BC5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3376921279D44B6007438E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3376920279D44B6007438E8 /* PracRxLoginApp.app */,
+				F3376936279D44B8007438E8 /* PracRxLoginAppTests.xctest */,
+				F3376941279D44B8007438E8 /* PracRxLoginAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3376922279D44B6007438E8 /* PracRxLoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3376923279D44B6007438E8 /* AppDelegate.swift */,
+				F3376925279D44B6007438E8 /* SceneDelegate.swift */,
+				F3376927279D44B6007438E8 /* ViewController.swift */,
+				F3376929279D44B6007438E8 /* Main.storyboard */,
+				F337692C279D44B8007438E8 /* Assets.xcassets */,
+				F337692E279D44B8007438E8 /* LaunchScreen.storyboard */,
+				F3376931279D44B8007438E8 /* Info.plist */,
+			);
+			path = PracRxLoginApp;
+			sourceTree = "<group>";
+		};
+		F3376939279D44B8007438E8 /* PracRxLoginAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F337693A279D44B8007438E8 /* PracRxLoginAppTests.swift */,
+				F337693C279D44B8007438E8 /* Info.plist */,
+			);
+			path = PracRxLoginAppTests;
+			sourceTree = "<group>";
+		};
+		F3376944279D44B8007438E8 /* PracRxLoginAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3376945279D44B8007438E8 /* PracRxLoginAppUITests.swift */,
+				F3376947279D44B8007438E8 /* Info.plist */,
+			);
+			path = PracRxLoginAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F337691F279D44B6007438E8 /* PracRxLoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F337694A279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginApp" */;
+			buildPhases = (
+				913E2E83C1E381FF3EB74055 /* [CP] Check Pods Manifest.lock */,
+				F337691C279D44B6007438E8 /* Sources */,
+				F337691D279D44B6007438E8 /* Frameworks */,
+				F337691E279D44B6007438E8 /* Resources */,
+				F87A00151A721A304FC3F5A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracRxLoginApp;
+			productName = PracRxLoginApp;
+			productReference = F3376920279D44B6007438E8 /* PracRxLoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3376935279D44B8007438E8 /* PracRxLoginAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F337694D279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginAppTests" */;
+			buildPhases = (
+				88A46D4F4B8DA1FD5B73EDE7 /* [CP] Check Pods Manifest.lock */,
+				F3376932279D44B8007438E8 /* Sources */,
+				F3376933279D44B8007438E8 /* Frameworks */,
+				F3376934279D44B8007438E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3376938279D44B8007438E8 /* PBXTargetDependency */,
+			);
+			name = PracRxLoginAppTests;
+			productName = PracRxLoginAppTests;
+			productReference = F3376936279D44B8007438E8 /* PracRxLoginAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3376940279D44B8007438E8 /* PracRxLoginAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3376950279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginAppUITests" */;
+			buildPhases = (
+				B61E9450FD12282BC87C272F /* [CP] Check Pods Manifest.lock */,
+				F337693D279D44B8007438E8 /* Sources */,
+				F337693E279D44B8007438E8 /* Frameworks */,
+				F337693F279D44B8007438E8 /* Resources */,
+				812F255D5BF8E93EBCEE3B23 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3376943279D44B8007438E8 /* PBXTargetDependency */,
+			);
+			name = PracRxLoginAppUITests;
+			productName = PracRxLoginAppUITests;
+			productReference = F3376941279D44B8007438E8 /* PracRxLoginAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3376918279D44B6007438E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F337691F279D44B6007438E8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F3376935279D44B8007438E8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F337691F279D44B6007438E8;
+					};
+					F3376940279D44B8007438E8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F337691F279D44B6007438E8;
+					};
+				};
+			};
+			buildConfigurationList = F337691B279D44B6007438E8 /* Build configuration list for PBXProject "PracRxLoginApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3376917279D44B6007438E8;
+			productRefGroup = F3376921279D44B6007438E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F337691F279D44B6007438E8 /* PracRxLoginApp */,
+				F3376935279D44B8007438E8 /* PracRxLoginAppTests */,
+				F3376940279D44B8007438E8 /* PracRxLoginAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F337691E279D44B6007438E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3376930279D44B8007438E8 /* LaunchScreen.storyboard in Resources */,
+				F337692D279D44B8007438E8 /* Assets.xcassets in Resources */,
+				F337692B279D44B6007438E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3376934279D44B8007438E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F337693F279D44B8007438E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		812F255D5BF8E93EBCEE3B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp-PracRxLoginAppUITests/Pods-PracRxLoginApp-PracRxLoginAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp-PracRxLoginAppUITests/Pods-PracRxLoginApp-PracRxLoginAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp-PracRxLoginAppUITests/Pods-PracRxLoginApp-PracRxLoginAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A46D4F4B8DA1FD5B73EDE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracRxLoginAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913E2E83C1E381FF3EB74055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracRxLoginApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61E9450FD12282BC87C272F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PracRxLoginApp-PracRxLoginAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F87A00151A721A304FC3F5A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp/Pods-PracRxLoginApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp/Pods-PracRxLoginApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PracRxLoginApp/Pods-PracRxLoginApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F337691C279D44B6007438E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3376928279D44B6007438E8 /* ViewController.swift in Sources */,
+				F3376924279D44B6007438E8 /* AppDelegate.swift in Sources */,
+				F3376926279D44B6007438E8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3376932279D44B8007438E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F337693B279D44B8007438E8 /* PracRxLoginAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F337693D279D44B8007438E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3376946279D44B8007438E8 /* PracRxLoginAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3376938279D44B8007438E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F337691F279D44B6007438E8 /* PracRxLoginApp */;
+			targetProxy = F3376937279D44B8007438E8 /* PBXContainerItemProxy */;
+		};
+		F3376943279D44B8007438E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F337691F279D44B6007438E8 /* PracRxLoginApp */;
+			targetProxy = F3376942279D44B8007438E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3376929279D44B6007438E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F337692A279D44B6007438E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F337692E279D44B8007438E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F337692F279D44B8007438E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3376948279D44B8007438E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3376949279D44B8007438E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F337694B279D44B8007438E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FF005EB46FAB10B91CE821 /* Pods-PracRxLoginApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F337694C279D44B8007438E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD2EDD36E0C19DDD656637A /* Pods-PracRxLoginApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F337694E279D44B8007438E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E383C58DDC728B2C9B3183E /* Pods-PracRxLoginAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracRxLoginApp.app/PracRxLoginApp";
+			};
+			name = Debug;
+		};
+		F337694F279D44B8007438E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B522CD99FB56E5E42031B05C /* Pods-PracRxLoginAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracRxLoginApp.app/PracRxLoginApp";
+			};
+			name = Release;
+		};
+		F3376951279D44B8007438E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207042327D20CB9BB33FC813 /* Pods-PracRxLoginApp-PracRxLoginAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracRxLoginApp;
+			};
+			name = Debug;
+		};
+		F3376952279D44B8007438E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A046A0D0DC66010ED17478F /* Pods-PracRxLoginApp-PracRxLoginAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracRxLoginAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracRxLoginAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracRxLoginApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F337691B279D44B6007438E8 /* Build configuration list for PBXProject "PracRxLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3376948279D44B8007438E8 /* Debug */,
+				F3376949279D44B8007438E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F337694A279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F337694B279D44B8007438E8 /* Debug */,
+				F337694C279D44B8007438E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F337694D279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F337694E279D44B8007438E8 /* Debug */,
+				F337694F279D44B8007438E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3376950279D44B8007438E8 /* Build configuration list for PBXNativeTarget "PracRxLoginAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3376951279D44B8007438E8 /* Debug */,
+				F3376952279D44B8007438E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3376918279D44B6007438E8 /* Project object */;
+}

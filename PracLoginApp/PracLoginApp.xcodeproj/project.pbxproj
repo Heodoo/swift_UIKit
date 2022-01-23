@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B32499279BF57300EE5939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B32498279BF57300EE5939 /* AppDelegate.swift */; };
+		F3B3249B279BF57300EE5939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3249A279BF57300EE5939 /* SceneDelegate.swift */; };
+		F3B3249D279BF57300EE5939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3249C279BF57300EE5939 /* ViewController.swift */; };
+		F3B324A0279BF57300EE5939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B3249E279BF57300EE5939 /* Main.storyboard */; };
+		F3B324A2279BF57700EE5939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B324A1279BF57700EE5939 /* Assets.xcassets */; };
+		F3B324A5279BF57700EE5939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B324A3279BF57700EE5939 /* LaunchScreen.storyboard */; };
+		F3B324B0279BF57700EE5939 /* PracLoginAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B324AF279BF57700EE5939 /* PracLoginAppTests.swift */; };
+		F3B324BB279BF57700EE5939 /* PracLoginAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B324BA279BF57700EE5939 /* PracLoginAppUITests.swift */; };
+		F3B324CC279D05D500EE5939 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B324CB279D05D400EE5939 /* WelcomeViewController.swift */; };
+		F3B324D1279D110F00EE5939 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B324D0279D110F00EE5939 /* WelcomeViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B324AC279BF57700EE5939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B3248D279BF57300EE5939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B32494279BF57300EE5939;
+			remoteInfo = PracLoginApp;
+		};
+		F3B324B7279BF57700EE5939 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B3248D279BF57300EE5939 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B32494279BF57300EE5939;
+			remoteInfo = PracLoginApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B32495279BF57300EE5939 /* PracLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B32498279BF57300EE5939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B3249A279BF57300EE5939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3B3249C279BF57300EE5939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3B3249F279BF57300EE5939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B324A1279BF57700EE5939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B324A4279BF57700EE5939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B324A6279BF57700EE5939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B324AB279BF57700EE5939 /* PracLoginAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracLoginAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B324AF279BF57700EE5939 /* PracLoginAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracLoginAppTests.swift; sourceTree = "<group>"; };
+		F3B324B1279BF57700EE5939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B324B6279BF57700EE5939 /* PracLoginAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracLoginAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B324BA279BF57700EE5939 /* PracLoginAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracLoginAppUITests.swift; sourceTree = "<group>"; };
+		F3B324BC279BF57700EE5939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B324CB279D05D400EE5939 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F3B324D0279D110F00EE5939 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B32492279BF57300EE5939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324A8279BF57700EE5939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324B3279BF57700EE5939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B3248C279BF57300EE5939 = {
+			isa = PBXGroup;
+			children = (
+				F3B32497279BF57300EE5939 /* PracLoginApp */,
+				F3B324AE279BF57700EE5939 /* PracLoginAppTests */,
+				F3B324B9279BF57700EE5939 /* PracLoginAppUITests */,
+				F3B32496279BF57300EE5939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B32496279BF57300EE5939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B32495279BF57300EE5939 /* PracLoginApp.app */,
+				F3B324AB279BF57700EE5939 /* PracLoginAppTests.xctest */,
+				F3B324B6279BF57700EE5939 /* PracLoginAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B32497279BF57300EE5939 /* PracLoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3B32498279BF57300EE5939 /* AppDelegate.swift */,
+				F3B3249A279BF57300EE5939 /* SceneDelegate.swift */,
+				F3B3249C279BF57300EE5939 /* ViewController.swift */,
+				F3B324CB279D05D400EE5939 /* WelcomeViewController.swift */,
+				F3B324D0279D110F00EE5939 /* WelcomeViewController.storyboard */,
+				F3B3249E279BF57300EE5939 /* Main.storyboard */,
+				F3B324A1279BF57700EE5939 /* Assets.xcassets */,
+				F3B324A3279BF57700EE5939 /* LaunchScreen.storyboard */,
+				F3B324A6279BF57700EE5939 /* Info.plist */,
+			);
+			path = PracLoginApp;
+			sourceTree = "<group>";
+		};
+		F3B324AE279BF57700EE5939 /* PracLoginAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B324AF279BF57700EE5939 /* PracLoginAppTests.swift */,
+				F3B324B1279BF57700EE5939 /* Info.plist */,
+			);
+			path = PracLoginAppTests;
+			sourceTree = "<group>";
+		};
+		F3B324B9279BF57700EE5939 /* PracLoginAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B324BA279BF57700EE5939 /* PracLoginAppUITests.swift */,
+				F3B324BC279BF57700EE5939 /* Info.plist */,
+			);
+			path = PracLoginAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B32494279BF57300EE5939 /* PracLoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B324BF279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginApp" */;
+			buildPhases = (
+				F3B32491279BF57300EE5939 /* Sources */,
+				F3B32492279BF57300EE5939 /* Frameworks */,
+				F3B32493279BF57300EE5939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracLoginApp;
+			productName = PracLoginApp;
+			productReference = F3B32495279BF57300EE5939 /* PracLoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B324AA279BF57700EE5939 /* PracLoginAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B324C2279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginAppTests" */;
+			buildPhases = (
+				F3B324A7279BF57700EE5939 /* Sources */,
+				F3B324A8279BF57700EE5939 /* Frameworks */,
+				F3B324A9279BF57700EE5939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B324AD279BF57700EE5939 /* PBXTargetDependency */,
+			);
+			name = PracLoginAppTests;
+			productName = PracLoginAppTests;
+			productReference = F3B324AB279BF57700EE5939 /* PracLoginAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3B324B5279BF57700EE5939 /* PracLoginAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B324C5279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginAppUITests" */;
+			buildPhases = (
+				F3B324B2279BF57700EE5939 /* Sources */,
+				F3B324B3279BF57700EE5939 /* Frameworks */,
+				F3B324B4279BF57700EE5939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B324B8279BF57700EE5939 /* PBXTargetDependency */,
+			);
+			name = PracLoginAppUITests;
+			productName = PracLoginAppUITests;
+			productReference = F3B324B6279BF57700EE5939 /* PracLoginAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B3248D279BF57300EE5939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F3B32494279BF57300EE5939 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F3B324AA279BF57700EE5939 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F3B32494279BF57300EE5939;
+					};
+					F3B324B5279BF57700EE5939 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F3B32494279BF57300EE5939;
+					};
+				};
+			};
+			buildConfigurationList = F3B32490279BF57300EE5939 /* Build configuration list for PBXProject "PracLoginApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B3248C279BF57300EE5939;
+			productRefGroup = F3B32496279BF57300EE5939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B32494279BF57300EE5939 /* PracLoginApp */,
+				F3B324AA279BF57700EE5939 /* PracLoginAppTests */,
+				F3B324B5279BF57700EE5939 /* PracLoginAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B32493279BF57300EE5939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B324D1279D110F00EE5939 /* WelcomeViewController.storyboard in Resources */,
+				F3B324A5279BF57700EE5939 /* LaunchScreen.storyboard in Resources */,
+				F3B324A2279BF57700EE5939 /* Assets.xcassets in Resources */,
+				F3B324A0279BF57300EE5939 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324A9279BF57700EE5939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324B4279BF57700EE5939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B32491279BF57300EE5939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B3249D279BF57300EE5939 /* ViewController.swift in Sources */,
+				F3B324CC279D05D500EE5939 /* WelcomeViewController.swift in Sources */,
+				F3B32499279BF57300EE5939 /* AppDelegate.swift in Sources */,
+				F3B3249B279BF57300EE5939 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324A7279BF57700EE5939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B324B0279BF57700EE5939 /* PracLoginAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B324B2279BF57700EE5939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B324BB279BF57700EE5939 /* PracLoginAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B324AD279BF57700EE5939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B32494279BF57300EE5939 /* PracLoginApp */;
+			targetProxy = F3B324AC279BF57700EE5939 /* PBXContainerItemProxy */;
+		};
+		F3B324B8279BF57700EE5939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B32494279BF57300EE5939 /* PracLoginApp */;
+			targetProxy = F3B324B7279BF57700EE5939 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B3249E279BF57300EE5939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B3249F279BF57300EE5939 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B324A3279BF57700EE5939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B324A4279BF57700EE5939 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B324BD279BF57700EE5939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B324BE279BF57700EE5939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B324C0279BF57700EE5939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B324C1279BF57700EE5939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3B324C3279BF57700EE5939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracLoginApp.app/PracLoginApp";
+			};
+			name = Debug;
+		};
+		F3B324C4279BF57700EE5939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracLoginApp.app/PracLoginApp";
+			};
+			name = Release;
+		};
+		F3B324C6279BF57700EE5939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracLoginApp;
+			};
+			name = Debug;
+		};
+		F3B324C7279BF57700EE5939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JWN5K8TJ87;
+				INFOPLIST_FILE = PracLoginAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duyeong.PracLoginAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracLoginApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B32490279BF57300EE5939 /* Build configuration list for PBXProject "PracLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B324BD279BF57700EE5939 /* Debug */,
+				F3B324BE279BF57700EE5939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B324BF279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B324C0279BF57700EE5939 /* Debug */,
+				F3B324C1279BF57700EE5939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B324C2279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B324C3279BF57700EE5939 /* Debug */,
+				F3B324C4279BF57700EE5939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B324C5279BF57700EE5939 /* Build configuration list for PBXNativeTarget "PracLoginAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B324C6279BF57700EE5939 /* Debug */,
+				F3B324C7279BF57700EE5939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B3248D279BF57300EE5939 /* Project object */;
+}
